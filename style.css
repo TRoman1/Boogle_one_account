@@ -1,0 +1,179 @@
+body{
+    margin:0;
+}
+
+.container {
+    /*background-color: aqua; */
+    height:100vh; 
+    display: flex;
+    flex-direction: column;
+    /*border: 5px black solid; */
+}
+
+
+.place_logo_boogle {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    /*border: 5px black solid; */
+}
+
+.logo_boogle {
+    width: 100px;
+}
+
+
+.place_text1{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    /*order: 5px black solid; */
+}
+
+.text1{
+    font-size: 35px;
+    font-family: Calibri light;
+    font-weight: light;
+}
+
+.place_text2{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    /*border: 5px black solid; */
+}
+
+.text2{
+    font-size: 18px;
+    font-family: Calibri light;
+    font-weight: light;
+}
+
+.frame_input1{
+    background-color: rgb(245, 245, 245);
+    height: 290px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    /*border: 5px black solid; */
+}
+
+.profile_picture{
+    width: 100px;
+    display:flex;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+   }
+
+.input_email {
+    width: 240px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    /*background-color:yellow; */
+    background-color: rgb(254, 254, 144);
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: gray;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
+.button_next{
+    width: 240px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    display: flex;
+    background-color:blue;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.link_need_help{
+    text-decoration: none;
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 11px;
+    color: blue;
+    display: flex;
+    justify-content: flex-end;
+    font-family: Calibri light;
+}
+
+.place_text3{
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    /*border: 5px black solid; */
+    }
+
+.boogle_icons{
+    width: 210px;
+}
+
+.link_create_account{
+    text-decoration: none;
+    font-size: 11px;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    font-family: Calibri light;
+}
+
+.link_one_boogle_account{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: Calibri;
+}
+
+.footer{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: 10px;
+    border-top: 1px solid black;
+}
+
+.foot_link{
+    margin-left: 30px;
+    margin-top: 12px;
+    text-decoration: none;
+    color: black;
+    font-family: Calibri;
+    font-size: 11px;
+}
+
+.signature{
+    margin-left:auto;
+    margin-top: 12px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: Calibri;
+    font-weight: bolder;
+    font-size: 11px;
+}
